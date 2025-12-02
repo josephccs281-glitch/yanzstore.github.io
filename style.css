@@ -1,0 +1,185 @@
+/* Pengaturan Dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header & Navigasi */
+header {
+    background-color: #007bff; /* Biru Primer */
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffd700; /* Emas */
+}
+
+/* Bagian Hero (Beranda) */
+.hero {
+    background-color: #0099ff; /* Biru muda */
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ff9900; /* Oranye */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #e68a00;
+}
+
+/* Konten Bagian */
+.content-section {
+    padding: 60px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.content-section h3 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 40px;
+}
+
+/* Kartu */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    min-width: 250px;
+    text-align: center;
+}
+
+.card h4 {
+    color: #007bff;
+    margin-top: 0;
+}
+
+/* Kalkulator */
+.calculator-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.calculator-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.calculator-form input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.calculator-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745; /* Hijau */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+.calculator-form button:hover {
+    background-color: #218838;
+}
+
+.result-box {
+    margin-top: 30px;
+    padding: 15px;
+    border-top: 2px solid #ddd;
+}
+
+.result-box h4 {
+    color: #007bff;
+}
+
+.result-box span {
+    font-weight: bold;
+    color: #ff9900;
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
