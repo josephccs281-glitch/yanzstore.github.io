@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investasi Cerdas: Panduan & Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>💰 Investasi Cerdas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#tentang">Tentang Investasi</a></li>
+                    <li><a href="#kalkulator">Kalkulator</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="beranda" class="hero">
+        <div class="container">
+            <h2>Mulai Perjalanan Investasi Anda Hari Ini</h2>
+            <p>Edukasi dasar dan alat sederhana untuk membantu Anda berinvestasi dengan bijak.</p>
+            <a href="#kalkulator" class="button">Coba Kalkulator</a>
+        </div>
+    </section>
+
+    <section id="tentang" class="content-section">
+        <div class="container">
+            <h3>Apa itu Investasi?</h3>
+            <p>Investasi adalah penempatan dana pada aset dengan harapan memperoleh keuntungan di masa depan. Ini adalah kunci untuk mencapai kebebasan finansial jangka panjang.</p>
+            
+            <div class="card-container">
+                <div class="card">
+                    <h4>Diversifikasi</h4>
+                    <p>Jangan menaruh semua telur Anda dalam satu keranjang. Sebarkan risiko Anda.</p>
+                </div>
+                <div class="card">
+                    <h4>Jangka Panjang</h4>
+                    <p>Investasi yang baik membutuhkan kesabaran. Fokus pada tujuan jangka panjang.</p>
+                </div>
+                <div class="card">
+                    <h4>Pahami Risiko</h4>
+                    <p>Setiap investasi memiliki risiko. Pahami profil risiko Anda sendiri.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kalkulator" class="content-section calculator-section">
+        <div class="container">
+            <h3>Kalkulator Pertumbuhan Sederhana</h3>
+            <p>Lihat potensi pertumbuhan investasi Anda dari waktu ke waktu (menggunakan bunga majemuk sederhana).</p>
+            
+            <div class="calculator-form">
+                <label for="modalAwal">Modal Awal (Rp):</label>
+                <input type="number" id="modalAwal" value="1000000">
+
+                <label for="bunga">Perkiraan Tingkat Bunga Tahunan (%):</label>
+                <input type="number" id="bunga" value="5">
+
+                <label for="periode">Jangka Waktu (Tahun):</label>
+                <input type="number" id="periode" value="10">
+                
+                <button onclick="hitungInvestasi()">Hitung</button>
+
+                <div class="result-box">
+                    <h4>Hasil Perkiraan:</h4>
+                    <p>Total Modal Akhir: <span id="hasilAkhir">Rp 0</span></p>
+                    <p>Total Keuntungan: <span id="keuntungan">Rp 0</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Investasi Cerdas. Semua hak dilindungi. | **Disclaimer:** Ini adalah contoh kalkulator, bukan saran investasi profesional.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
